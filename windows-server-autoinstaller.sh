@@ -3,7 +3,7 @@
 # Function to display menu and get user choice
 display_menu() {
     echo "Please select the Windows Server version:"
-    echo "1. Windows Server 2016"
+    echo "1. Windows Server 10"
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
     read -p "Enter your choice: " choice
@@ -26,10 +26,10 @@ display_menu
 
 case $choice in
     1)
-        # Windows Server 2016
-        img_file="windows2016.img"
-        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195174&clcid=0x409&culture=en-us&country=US"
-        iso_file="windows2016.iso"
+        # Windows Server 10
+        img_file="windows10.img"
+        iso_link="https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso?t=beaf4f9b-b317-4f24-b7f7-713f6d6d0380&P1=1719802126&P2=601&P3=2&P4=F%2fas4vggQDwoGjvogNigCcQ7%2bf7xgPhixzkBx4kpkNxSBiD5qAt9AwQ6%2fxJbJaX4EUtkvQDACJ7k9tKSXFjTvZH3GwFjy%2b940R4vIOyYckdcfiz9qx8mOS%2bEHVxybJiQx4pNhH5DDfbDO8kiG%2f%2f3f9fabI6xp%2f36Rt00xLzNQgR5o2EQGUJYMc9PBwpVVM48EwIH6JyVJSmQNDESedgleaZy8ZyaEpQ4lN2huTRxUfECotRjRpXdm2CxsLu2hjeeeDdyazzaee%2fZ5LhKfRt52Z7s%2bDxZtsZ%2fYu9jKGRob6OujTmjtQfNmpDW0sjlKyVK4Ttfsbi6D8WuDevrOTnlRA%3d%3d"
+        iso_file="windows10.iso"
         ;;
     2)
         # Windows Server 2019
