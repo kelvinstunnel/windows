@@ -28,7 +28,7 @@ case $choice in
     1)
         # Windows Server 2016
         img_file="windows2016.img"
-        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195174&clcid=0x409&culture=en-us&country=US"
+        iso_link="https://archive.org/download/windows_20240718/Windows.iso"
         iso_file="windows2016.iso"
         ;;
     2)
